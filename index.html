@@ -1,0 +1,55 @@
+<!-- 
+ File: style.css
+ GUI Assignment: Dynamic multiplication table
+ Christopher Huerta
+ 10/29/25
+this is the skeleton for my webpage i used boot strap to creat my table and the input field through a card
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication table</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    
+
+</head>
+<body>
+
+     
+
+        <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Min Column Value</span>
+                <input id="minCol" type="text" class="form-control" placeholder="Enter value">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Max Column Value</span>
+                <input id="maxCol" type="text" class="form-control" placeholder="Enter value">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Min Row Value</span>
+                <input id="minRow" type="text" class="form-control" placeholder="Enter value">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Max Row Value</span>
+                <input id="maxRow" type="text" class="form-control" placeholder="Enter value">
+            </div>
+            <button id="readBtn" class="btn btn-primary w-100">Enter</button>
+        </div>
+        </div>
+
+        
+        <div class="mt-4 text-center" id="tableContainer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+
+
+</body>
+</html>
